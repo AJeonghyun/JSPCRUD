@@ -23,8 +23,16 @@
     String username = request.getParameter("username");
     String pwd = request.getParameter("pwd");
     String isCheck = request.getParameter("isCheck");
-    String isCheckMSG = "";
+
+    String isCheckMSG = "Check me out 체크 안됨";
+    String isToreta = "토레타를 좋아하지 않아요";
+    String isCarlicence = "운전면허를 가지고 있지 않아요";
+    String isTablet = "태블릿을 가지고 있지 않아요";
+
     if(isCheck.equals("1")) isCheckMSG = "Check me out 체크됨";
+    if(tablet.equals("1")) isTablet = "타블랫을 가지고 있어요";
+    if(carlicense.equals("1")) isCarlicence = "운전면허를 가지고 있어요";
+    if(toreta.equals("1")) isToreta = "토레타를 좋아해요";
 %>
 <html>
 <head>
