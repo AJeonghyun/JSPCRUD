@@ -42,9 +42,9 @@
 성 : <%=fname%> <br />
 이름 : <%=lname%> <br />
 성별 : <%=gender%> <br />
-Tablet : <%=tablet%> <br />
-운전면허증 : <%=carlicense%> <br />
-토레타 : <%=toreta%> <br />
+Tablet : <%=isTablet%> <br />
+운전면허증 : <%=isCarlicence%> <br />
+토레타 : <%=isToreta%> <br />
 사는지역 : <%=city%> <br />
 생일 : <%=birthday%> <br />
 RC : <%=rc%> <br />
