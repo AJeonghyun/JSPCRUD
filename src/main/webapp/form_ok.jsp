@@ -13,9 +13,6 @@
     String lname = request.getParameter("lname");
     String gender = request.getParameter("gender");
     String email = request.getParameter("email");
-    String tablet = request.getParameter("tablet");
-    String carlicense = request.getParameter("carlicense");
-    String toreta = request.getParameter("toreta");
     String city = request.getParameter("city");
     String birthday = request.getParameter("birthday");
     String rc = request.getParameter("rc");
@@ -38,9 +35,6 @@
 성 : <%=fname%> <br />
 이름 : <%=lname%> <br />
 성별 : <%=gender%> <br />
-Tablet : <%=tablet%> <br />
-운전면허증 : <%=carlicense%> <br />
-토레타 : <%=toreta%> <br />
 사는지역 : <%=city%> <br />
 생일 : <%=birthday%> <br />
 RC : <%=rc%> <br />
